@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Slidebar.scss';
-import { IconContext } from 'react-icons';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import { IconContext } from 'react-icons';
 import * as actionLoaiGiay from './../../actions/loai_giay';
 
 function Slidebar(props) {
