@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Pagination from 'react-js-pagination';
 import './index.scss';
 import * as giayAPI from './../../../api/giay';
 import { Link, useHistory } from 'react-router-dom';
 import * as apiGiay from './../../../api/giay';
 import * as apiImage from '../../../contants/index';
+import Pagination from 'react-js-pagination';
 
 function ThuongHieuTC(props) {
 	const [activePage, setActivePage] = useState(1);
