@@ -1,0 +1,106 @@
+.DangKy-tk {
+    margin: 50px 0;
+}
+
+.title-head {
+    font-size: 26px;
+    line-height: 28px;
+    margin: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+
+.fix-sblock {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.tm-edit-product-form label {
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.margin-top {
+    margin: 10px 0;
+}
+
+.tm-edit-product-form {
+    margin-top: 20px;
+}
+
+.tm-edit-product-form input[type=text],
+input[type=password] {
+    background: #f7f7f7;
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid transparent;
+    outline: none;
+    box-shadow: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.tm-edit-product-form input[type=text]::placeholder {
+    font-size: 16px;
+}
+
+.tm-edit-product-form input[type=password]::placeholder {
+    font-size: 16px;
+}
+
+.form-control:focus {
+    background-color: #F7F7F7;
+    outline: 0;
+    box-shadow: none;
+}
+
+.add_type {
+    min-width: 290px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+.centen-button {
+    width: 100%;
+    display: flex;
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+    font-size: 15px;
+}
+
+.inputError {
+    border-color: red;
+}
+
+.mr-t {
+    margin-top: 30px;
+}
+
+.btn_dangky {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn_dangky:hover {
+    text-decoration: none;
+    color: #916841;
+}

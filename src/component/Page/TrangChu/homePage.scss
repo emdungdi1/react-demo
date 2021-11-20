@@ -1,0 +1,164 @@
+.owl-dots {
+    display: none;
+}
+
+.owl-nav {
+    top: 0;
+    left: -5%;
+    width: 110%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-size: 45px;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0px !important;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: #ffffff !important;
+    color: black !important;
+    text-decoration: none;
+}
+
+.owl-carousel .owl-stage-outer {
+    z-index: 10;
+}
+
+.homePage {
+    margin-top: 50px;
+}
+
+.row-menu button#dropdown-basic {
+    font-size: 18px !important;
+}
+
+.title-hp {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-hp:hover {
+    color: #916841;
+    text-decoration: none;
+}
+
+.title-newProdcut {
+    text-align: center;
+}
+
+.name-product {
+    font-size: 14px;
+    letter-spacing: 2.4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.price-product {
+    font-size: 14px;
+    color: rgb(92, 92, 92)
+}
+
+.center-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-blues,
+#btnnewreview,
+.evo-button {
+    margin: 10px auto;
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    line-height: normal;
+    border: 1px solid #1c1c1c;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    -webkit-transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    z-index: 1;
+    -webkit-tap-highlight-color: initial;
+    color: #fff;
+}
+
+.btn-blues:hover,
+.btn-blues:focus,
+#btnnewreview:hover,
+#btnnewreview:focus,
+.evo-button:hover,
+.evo-button:focus {
+    color: #1c1c1c;
+    border-color: #1c1c1c;
+    text-decoration: none;
+}
+
+.btn-blues:hover::before,
+.btn-blues:focus::before,
+#btnnewreview:hover::before,
+#btnnewreview:focus::before,
+.evo-button:hover::before,
+.evo-button:focus::before {
+    -webkit-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+.btn-blues::before,
+#btnnewreview::before,
+.evo-button::before {
+    position: absolute;
+    content: '';
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    z-index: -1;
+    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    background-color: #1c1c1c;
+}
+
+@media screen and (min-width: 1px)and(max-width: 739px) {
+    .owl-theme .owl-nav {
+        display: none;
+    }
+    .homePage {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 740px)and(max-width: 1040px) {
+    .homePage {
+        margin-top: 30px;
+    }
+}

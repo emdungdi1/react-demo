@@ -1,0 +1,112 @@
+.MuiDrawer-modal {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-bars {
+    font-size: 2rem;
+    background: none;
+}
+
+.nav-menu {
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    z-index: 1000;
+    overflow: scroll;
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 1s;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-menu-items {
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.row-menu {
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid rgba(92, 92, 92, 0.1);
+}
+
+.row-menu a {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.row-menu a:hover {
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+}
+
+.row-menu button#dropdown-basic {
+    border: none;
+    color: #333;
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 10px 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-menu button#dropdown-basic:hover {
+    background-color: #FFFFFF;
+}
+
+.btn-success.focus,
+.btn-success:focus {
+    color: #fff;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    box-shadow: none !important;
+}
+
+.show>.btn-success.dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+
+.dropdown-toggle {
+    display: flex;
+}
+
+.dropdown-toggle::after {
+    content: "";
+    margin: auto 0;
+    text-align: center;
+}
+
+.dropdown-item-menu {
+    width: 233px;
+}
+
+@media screen and (min-width: 768px)and(max-width: 1200px) {
+    .navbar-base {
+        width: 100%;
+    }
+}

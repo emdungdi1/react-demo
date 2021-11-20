@@ -1,0 +1,146 @@
+.pagination {
+    width: 100%;
+}
+
+.pagination>li {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.pagination>li {
+    list-style: none;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    position: relative;
+    float: left;
+    height: 40px;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #2c689c;
+    background-color: #fff;
+    border: 0.5px solid #ddd;
+}
+
+.pagination .active a {
+    color: #fff;
+    background-color: #357edd;
+    border-color: #357edd;
+}
+
+
+/* Style the active class (and buttons on mouse-over) */
+
+.pagination>li>a:hover {
+    background-color: #357edd;
+    color: white;
+}
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {
+    margin-left: 0;
+    padding: 0px;
+    border-bottom-left-radius: 1px;
+    border-top-left-radius: 1px;
+    display: none!important;
+}
+
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+    border-bottom-right-radius: 1px;
+    margin-right: 0;
+    padding: 0px!important;
+    border-top-right-radius: 1px;
+    display: none!important;
+}
+
+.height-margin {
+    margin: 20px 0;
+}
+
+.ThuongHieuTC {
+    margin: 30px 0;
+}
+
+.sort-cate {
+    border-bottom: 1px solid #f5f5f5;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.sort-cate .sort-cate-left {
+    display: flex;
+    margin-top: 5px;
+}
+
+.sort-cate .sort-cate-left ul {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sort-cate .sort-cate-left h3 {
+    color: #000;
+    font-size: 14px;
+    width: 80px;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.sort-cate .sort-cate-left ul li {
+    padding: 0 0 0 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none inside;
+}
+
+.sort-cate .sort-cate-left ul li a {
+    color: #000;
+    font-size: 14px;
+    position: relative;
+}
+
+.sort-cate .sort-cate-left ul li a:hover {
+    text-decoration: none;
+    color: #916841;
+}
+
+.sort-cate .sort-cate-left ul li a i {
+    height: 16px;
+    width: 16px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -3px 5px 0 0;
+    position: relative;
+}
+
+.sort-cate .sort-cate-left ul li:hover i,
+.sort-cate .sort-cate-left ul li.active i {
+    border: 2px solid #916841;
+    height: 16px;
+    width: 16px;
+}
+
+.sort-cate .sort-cate-left ul li:hover i:before,
+.sort-cate .sort-cate-left ul li.active i:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #916841;
+    position: absolute;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+@media screen and (min-width: 1px) and (max-width: 739px) {
+    .sort-cate .sort-cate-left ul li {
+        width: 45%;
+    }
+}

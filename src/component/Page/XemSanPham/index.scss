@@ -1,0 +1,150 @@
+.watch-product__name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.watch-product__price {
+    font-size: 20px;
+    display: flex;
+}
+
+.select-size {
+    display: flex;
+}
+
+.select-size__header,
+.select-fast__header,
+.select-quantity__header {
+    width: 80px;
+}
+
+.select-fast__modify {
+    width: auto;
+    font-size: 16px;
+}
+
+.select-size__size {
+    flex: 1;
+    display: flex;
+}
+
+.select-swap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.swatch-element {
+    float: left;
+    -webkit-transform: translateZ(0);
+    -webkit-font-smoothing: antialiased;
+    margin: 0px 5px 5px 0;
+    position: relative;
+}
+
+.swatch-element input {
+    display: none;
+}
+
+.swatch-element label {
+    float: left;
+    min-width: 35px !important;
+    height: 35px !important;
+    margin: 0;
+    border: 1px solid #f5f5f5;
+    background-color: #fff;
+    font-size: .92857em;
+    text-align: center;
+    line-height: 35px;
+    white-space: nowrap;
+    font-weight: 500;
+    padding: 0;
+}
+
+.crossed-out {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.swatch-element .crossed-out {
+    display: none;
+}
+
+.swatch-element label .img-check {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+input:checked+label {
+    background: transparent;
+    color: #1c1c1c;
+    border: 1px solid #1c1c1c;
+}
+
+input:checked+label .img-check {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.select-fast {
+    display: flex;
+}
+
+.ant-swatch {
+    width: 30%;
+    height: 90%;
+}
+
+.select-quantity {
+    display: flex;
+}
+
+.select-btn {
+    display: flex;
+    width: 100px;
+    height: 35px;
+    align-self: center;
+    border: 1px solid #1c1c1c1a;
+}
+
+.select-btn span {
+    cursor: pointer;
+    margin: auto;
+    font-size: 18px;
+    width: 35px;
+    text-align: center;
+}
+
+.select-btn_quantity {
+    border: none;
+    width: 35px;
+    text-align: center;
+}
+
+.select-btn input[type="text"]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-mua .add_to_cart {
+    width: 100%;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.btn-mua:hover .add_to_cart {
+    color: white;
+    background-color: #916841;
+}
+
+@media screen and (min-width: 1px) and (max-width: 739px) {
+    .xem_san_pham {
+        margin-top: 50px;
+    }
+}

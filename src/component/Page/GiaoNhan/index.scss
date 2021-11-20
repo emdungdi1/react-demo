@@ -1,0 +1,39 @@
+.notFound {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    bottom: 0px
+}
+
+.heigth-not {
+    text-align: center;
+    width: 80%;
+    margin: auto auto;
+}
+
+.img-not {
+    width: 600px;
+    height: 400px;
+}
+
+.title-big {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.back-home {
+    padding: 8px 20px;
+    background: #916841;
+    border-radius: 2px;
+    border-color: #916841;
+    color: #fff;
+    border: none;
+}
+
+.back-home:hover {
+    color: #fff;
+    background-color: #7f5b39;
+    border-color: #7f5b39;
+}

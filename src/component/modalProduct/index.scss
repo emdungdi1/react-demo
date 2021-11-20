@@ -1,0 +1,141 @@
+.product-modal__block {
+    display: none;
+}
+
+.product-modal {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.product-modal form {
+    height: 100%;
+    width: 100%;
+}
+
+.product-modal__all {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-add {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+
+.modal-all {
+    width: 100%;
+}
+
+.modal-all .container {
+    background: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.close_product {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.background-modal {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.modal-add__header {
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.modal-list {
+    margin-top: 10px;
+}
+
+.modal-table__header {
+    background-color: #f7f7f7;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.modal-product {
+    display: flex;
+}
+
+.productGH-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.productGH-fast {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.productGH-delete {
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.productGH-delete i {
+    padding: 0 5px;
+}
+
+.price-all {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.continue-product {
+    font-size: 18px;
+    color: #0657a3;
+    cursor: pointer;
+}
+
+.continue-product:hover {
+    color: #916841;
+}
+
+.modal-product__image img {
+    padding: 0 10px;
+}
+
+.title_block {
+    display: none;
+}
+
+@media screen and (min-width: 740px) and (max-width: 1040px) {
+    .select-btn__minus,
+    .select-btn_quantity,
+    .select-btn__plus {
+        width: 30px !important;
+    }
+    .select-btn {
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 739px) {
+    .flex-modle__title {
+        display: flex;
+        padding-top: 5px;
+    }
+    .flex-modle__title .title_block {
+        width: 80px;
+    }
+    .modal-table {
+        display: none;
+    }
+    .title_block {
+        display: block;
+    }
+}

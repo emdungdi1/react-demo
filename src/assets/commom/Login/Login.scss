@@ -1,0 +1,90 @@
+.dangnhap {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f8f9fc !important;
+    color: white;
+}
+
+.center-dangnhap {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form.form-signin {
+    background: #5c5cd8;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    margin: auto 0;
+}
+
+.form-signin-heading {
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    margin: auto 0;
+}
+
+.text-xs-center.nutdangnhap {
+    text-align: center;
+}
+
+button.btn.btn-lg.btn-primary.btndn {
+    margin-top: 40px;
+    font-size: 15px;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: #36e600;
+}
+
+.taotk {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.login-base {
+    width: 100%;
+    display: flex;
+    margin: 10px 20px;
+}
+
+.login-left {
+    width: 28%;
+    height: 30px;
+}
+
+input.login-rigth {
+    width: 55%;
+    height: 30px;
+}
+
+.thongbao {
+    height: 20px;
+    text-align: center;
+    color: rgb(0, 255, 213);
+}
+
+.taotk {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.adminLoading {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #0a0a0a78;
+    z-index: 10;
+    text-align: center;
+    display: flex;
+}
+
+img.loadding {
+    width: 60px;
+    height: 60px;
+    margin: auto auto;
+}

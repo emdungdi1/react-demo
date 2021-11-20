@@ -1,0 +1,292 @@
+.header-CT {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconMenu {
+    display: flex;
+    flex: 2;
+}
+
+.iconMenu .MuiSvgIcon-root {
+    font-size: 40px;
+    margin: auto 0;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+}
+
+.logo img {
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.account {
+    position: relative;
+}
+
+.account::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    width: 100%;
+    height: 45px;
+    background: 0 0;
+    z-index: 8;
+}
+
+.account:hover ul {
+    display: block;
+}
+
+.account ul {
+    position: absolute;
+    display: none;
+    top: 56px;
+    left: 0;
+    z-index: 2;
+    background: #fff;
+    width: 100%;
+    min-width: 200px;
+    border: 1px solid #efefef;
+    border-radius: 0 0 3px 3px;
+}
+
+.account ul:before {
+    border: 9px solid transparent;
+    border-bottom: 9px solid #efefef;
+    margin-left: -9px;
+    bottom: 100%;
+    left: 20%;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.account ul li a {
+    display: block;
+    padding: 7px 10px;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.account ul li a:hover {
+    text-decoration: none;
+    color: #916841;
+}
+
+.account:hover,
+.giohang:hover,
+.search:hover {
+    cursor: pointer;
+}
+
+.cart-product {
+    position: relative;
+}
+
+.cart-poduct-sl {
+    position: absolute;
+    right: 5px;
+    top: -15px;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+}
+
+.cart-product__icon {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+.dk-acoount {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dk-acoount .MuiSvgIcon-root {
+    font-size: 30px;
+    padding: 0 3px;
+}
+
+.flex-dk {
+    display: flex;
+    padding: 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav-evo-watch {
+    margin-top: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.nav .nav-item {
+    display: flex;
+}
+
+.nav .nav-item a {
+    margin: auto 0;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.nav .row-menu {
+    width: 110px;
+    border-bottom: none;
+}
+
+.row-menu button#dropdown-basic {
+    font-size: 18px;
+}
+
+.footer-TC {
+    margin: 30px 0;
+    background-color: #f9f9f9;
+}
+
+.title-huongdan {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.list-huongdan {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-huongdan li {
+    padding: 5px 0;
+}
+
+.list-huongdan a {
+    font-size: 14px;
+    color: black;
+}
+
+.list-huongdan a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+.dislay-center {
+    display: flex;
+}
+
+.huongdan {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1px)and(max-width: 739px) {
+    .nav {
+        display: none;
+    }
+    .title-account,
+    .title-giohang,
+    .title-search,
+    .account,
+    .nav-evo-watch {
+        display: none;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .row-menu button#dropdown-basic {
+        font-size: 15px;
+    }
+    .nav .nav-item a {
+        font-size: 15px;
+    }
+    .iconMenu {
+        width: 25% !important;
+        display: flex;
+    }
+    .logo {
+        width: 50% !important;
+        display: flex;
+    }
+    .logo img {
+        height: 100%;
+    }
+    .dk-acoount {
+        width: 25% !important;
+        display: flex;
+    }
+    .flex-dk {
+        justify-content: end;
+    }
+}
+
+@media screen and (min-width: 70px)and(max-width: 1040px) {
+    .title-account,
+    .title-giohang,
+    .title-search {
+        display: none;
+    }
+    .container {
+        width: 100%;
+        position: relative;
+    }
+    .header-CT {
+        width: 100%;
+    }
+    .logo img {
+        height: 120px;
+    }
+    .nav-evo-watch {
+        margin-top: 20px;
+    }
+    .row-menu button#dropdown-basic {
+        font-size: 18px;
+    }
+    .nav .nav-item a {
+        font-size: 18px;
+    }
+}
+
+.MuiBackdrop-root {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0 !important;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 999;
+    transition: opacity .5s ease;
+}
