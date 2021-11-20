@@ -2,6 +2,10 @@
     "name": "doan",
     "version": "0.1.0",
     "private": true,
+    "engines": {
+        "node": "v14.15.1",
+        "npm": "6.14.8"
+    },
     "dependencies": {
         "@material-ui/core": "^4.11.4",
         "@material-ui/icons": "^4.11.2",
